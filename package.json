@@ -1,0 +1,33 @@
+{
+  "name": "array",
+  "version": "1.0.0",
+  "description": "solution puzzle (array) from Hexlet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shulga1/array.git"
+  },
+  "keywords": [
+    "hexlet",
+    "array"
+  ],
+  "author": "Yuriy Shulga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shulga1/array/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/shulga1/array#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^26.3.0",
+    "eslint": "^7.8.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "^26.4.2"
+  }
+}
