@@ -1,12 +1,19 @@
-Here you can find a challenge on the topic Arrays.
+# JavaScript. Arrays
+_Here you can find a challenge on the topic Arrays._
+_Здесь собраны испытания по теме массивы._
 
-Здесь собраны испытания по теме массивы
+1) Compare versions
+Cравнение версий. В файле src/compareVersion.js
+Реализуйте и экспортируйте по умолчанию функцию, которая сравнивает переданные версии version1 и version2. Если version1 > version2, то функция должна вернуть 1, если version1 < version2, то - -1, если же version1 = version2, то - 0.
 
-1) Cравнение версий
+_Examples_
+compareVersion("0.1", "0.2"); // -1
+compareVersion("0.2", "0.1"); // 1
+compareVersion("4.2", "4.2"); // 0
 
+2) Сумма интервалов
 Обратная польская запись
 Умножение матриц
-Сумма интервалов
 Улитка
 Cравнение версий
 Cписок диапазонов
