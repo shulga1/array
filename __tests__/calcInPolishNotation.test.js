@@ -1,5 +1,4 @@
-import calcInPolishNotation from '../src/calcInPolishNotation.js';
-import { calculator } from '../src/calcInPolishNotation.js';
+import calcInPolishNotation, { calculator } from '../src/calcInPolishNotation.js';
 
 test('calculator', () => {
   expect(calculator(-1, -1, '+')).toBe(-2);
