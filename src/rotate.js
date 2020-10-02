@@ -1,16 +1,24 @@
 export const rotate = (matrix, direction = 'left') => {
+  if (matrix.length < 1) {
+    return [];
+  }
+
   const result = [];
 
-  for (let field = 0; field < matrix.length; field += 1) {
+  for (let column = 0; column < matrix[0].length; column += 1) {
     const temp = [];
     for (let row = 0; row < matrix.length; row += 1) {
-      direction === 'right'
-        ? temp.push(matrix[matrix.length - 1 - row][field])
-        : temp.push(matrix[row][matrix.length - 1 - field]);
+      if (direction === 'right') {
+        temp.push(matrix[matrix.length - 1 - row][column]);
+      }
+      if (direction === 'left') {
+        temp.push(matrix[row][matrix[0].length - 1 - column]);
+      }
     }
 
     result.push(temp);
   }
+
   return result;
 };
 
